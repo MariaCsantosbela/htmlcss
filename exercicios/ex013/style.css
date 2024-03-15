@@ -1,0 +1,37 @@
+@charset "UTF-8";
+*{
+    font-family: "Ojuju", sans-serif;
+
+}
+
+
+body{
+    background-image:linear-gradient(to right, #F1D8C9, #F2C3A7); ;
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 50px 50px 15px #b6907b ;
+    width: 600PX;
+    padding: 10PX;
+    margin: auto;
+
+}
+h1{
+    color: #f39209;
+    text-align: center;
+    text-shadow: 1px 1px 2px #bd8361;
+    font-family: "Ojuju", sans-serif;
+}
+h2{
+    color: #125189;
+
+
+}
+
+p{
+    text-align: justify;
+    
+
+}

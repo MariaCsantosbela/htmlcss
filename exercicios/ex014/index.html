@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+    <style>
+        body{
+            font: normal 1em Arial, Helvetica, sans-serif;
+        }
+        a{
+            font-weight: bold;
+            text-decoration: none;
+            color: red;
+        }
+        a:visited{
+            color: darkred;
+
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .tetxo:hover{
+            color: white;
+            background-color: black;
+            text-decoration: none;
+        }
+        .tetxo::before{
+            content: "#";
+            font-weight: lighter;
+        }
+        .tetxo::after{
+            content: '*';
+            font-weight: lighter;
+        }
+
+    </style>
+    
+
+</head>
+<body>
+    <h1 >Aprenda Desenvolvimento Web</h1>
+    <p>
+        para aprender html5 e css3, acesse o 
+        <a href="https://gustavoguanabara.github.io">Github do Guanabara</a>
+    </p>
+    
+    <p class="tetxo">S e quiser conhecer mais sobre ops padro~es acesse 
+        <a href="https://www.w3c.br">Escritorio do W3C no Brasil</a>
+    </p>
+    
+    <p>Para acompnhar os cursos acesse o 
+        <a href="https://youtube.com/cursoemvideo" class="especial"> canal do curso em video</a>
+    </p>
+    
+</body>
+</html>
